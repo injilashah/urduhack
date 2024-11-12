@@ -56,7 +56,7 @@ _CORRECT_URDU_CHARACTERS_MAPPING: Dict[str, List[str]] = { 'آ': ['ﺁ', 'ﺂ'],
                                                           
                                                           
                                                           'ء': ['ﺀ'],
-                                                          'ی ': ['ﯼ'  , 'ى', 'ﯽ', 'ﻰ', 'ﻱ', 'ﻲ', 'ﯾ', 'ﯿ', 'ي'],
+                                                          'ی': ['ﯼ'  , 'ى', 'ﯽ', 'ﻰ', 'ﻱ', 'ﻲ', 'ﯾ', 'ﯿ', 'ي'],
                                                           'ے': ['ﮮ', 'ﮯ', 'ﻳ', 'ﻴ', ],
                                                           
                                                           '۰': ['٠'],
@@ -142,7 +142,7 @@ def normalize_characters(text: str) -> str:
 
 COMBINE_URDU_CHARACTERS: Dict[str, str] = {"آ": "آ",
                                            "أ": "أ",
-                                           
+                                           "أ": "أ",
                                            }
 
 
